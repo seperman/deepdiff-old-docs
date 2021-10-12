@@ -8,11 +8,15 @@ DeepDiff OLD 4.0.7 documentation!
 =================================
 
 
-.. note::
 
-    DeepDiff documentations are now hosted on `Zepworks.com <https://zepworks.com/deepdiff/current/>`_
+.. note::
+    .. role:: raw-html(raw)
+       :format: html
+
+    :raw-html:`<font color="red">These docs are OUTDATED.</font>`
+
+    Visit `Zepworks.com <https://zepworks.com/deepdiff/current/>`_ for the current documentations.
     
-    What you see here are the old documentations.
 
 
 **DeepDiff: Deep Difference of dictionaries, iterables, strings and other objects. It will recursively look for all the changes.**
@@ -39,7 +43,9 @@ DeepDiff prefers to use Murmur3 for hashing. However you have to manually instal
 
 Otherwise DeepDiff will be using SHA256 for hashing which is a cryptographic hash and is considerably slower.
 
-If you are running into trouble installing Murmur3, please take a look at the `Troubleshoot <#troubleshoot>`__ section.
+If you are running into trouble installing Murmur3, please take a look at the `Troubleshoot <https://zepworks.com/deepdiff/current/troubleshoot.html>`_
+
+
 
 
 Importing
@@ -55,9 +61,18 @@ Importing
 DeepDiff
 ********
 
+.. note::
+    .. role:: raw-html(raw)
+       :format: html
+
+    :raw-html:`<font color="red">These docs are OUTDATED.</font>`
+
+    Visit `Zepworks.com <https://zepworks.com/deepdiff/current/>`_ for the current documentations.
+    
+
 Read The DeepDiff details in:
 
-:doc:`/diff`
+`DeepSearch <https://zepworks.com/deepdiff/current/diff.html>`_
 
 Short introduction
 
@@ -135,11 +150,21 @@ Serialization
 
 And many more features! Read more in
 
-:doc:`/diff`
+
+`DeepSearch <https://zepworks.com/deepdiff/current/diff.html>`_
 
 ***********
 Deep Search
 ***********
+
+.. note::
+    .. role:: raw-html(raw)
+       :format: html
+
+    :raw-html:`<font color="red">These docs are OUTDATED.</font>`
+
+    Visit `Zepworks.com <https://zepworks.com/deepdiff/current/>`_ for the current documentations.
+    
 
 Deep Search inside objects to find the item matching your criteria.
 
@@ -181,12 +206,22 @@ Search in nested data for string
 
 Read more in the Deep Search references:
 
-:doc:`/dsearch`
+`DeepSearch <https://zepworks.com/deepdiff/current/dsearch.html>`_
 
 
 *********
 Deep Hash
 *********
+
+.. note::
+    .. role:: raw-html(raw)
+       :format: html
+
+    :raw-html:`<font color="red">These docs are OUTDATED.</font>`
+
+    Visit `Zepworks.com <https://zepworks.com/deepdiff/current/>`_ for the current documentations.
+    
+
 DeepHash calculates the hash of objects based on their contents in a deterministic way.
 This way 2 objects with the same content should have the same hash.
 
@@ -199,7 +234,7 @@ but you can pass another hash function to it if you want.
 
 Read the details at:
 
-:doc:`/deephash`
+`DeepHash <https://zepworks.com/deepdiff/current/deephash.html>`_
 
 Examples:
 
@@ -242,7 +277,7 @@ In order to get the hash of obj itself, you need to use the object (or the id of
 
 Read more in the Deep Hash reference:
 
-:doc:`/deephash`
+`DeepHash <https://zepworks.com/deepdiff/current/deephash.html>`_
 
 
 ************
